@@ -57,8 +57,8 @@ Before you begin, ensure you have the following prerequisites installed:
 
 
 #### <u> the Network of the infrastructure will be like this </u>
-
-
+![Video](https://github.com/gAhmedg/Terraform-Reverse-Proxy-Project/blob/main/screenshots/video2.mp4
+)
 
 ---
 #### <u> the user-data for priavte and public ec2 instances  </u>
