@@ -5,7 +5,7 @@
 This Terraform project manages the infrastructure with custom modules for establishing a resilient and scalable architecture  and using  Reverse proxy with Load balancer . It provisions and manages resources on AWS Cloud Provider, enabling the deployment of two Ec2 instance (Apache)  with Private subnet and LoadBalancer for Private instances ,also we have Two Ec2 instance (Nginx)  with Public subnet and LoadBalancer for Public instances act as Reverse proxy that's can  enhance security by acting as an intermediary between clients and servers, shielding the backend infrastructure from direct exposure to the internet and providing an additional layer of defense against attacks.
 
 ## Diagram of Project
-![alt text](<screenshots/Untitled Diagram.drawio.svg>)
+![alt text](<screenshots/terraform.drawio.svg>)
 
 
 ## Table of Contents
@@ -13,7 +13,6 @@ This Terraform project manages the infrastructure with custom modules for establ
 1. [Prerequisites](#prerequisites)
 2. [Getting Started](#getting-started)
 3. [Folder Structure](#folder-structure)
-4. [Contributing](#contributing)
 
 
 ## Prerequisites
@@ -21,19 +20,19 @@ This Terraform project manages the infrastructure with custom modules for establ
 Before you begin, ensure you have the following prerequisites installed:
 
 - Terraform: [Installation Guide](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-- [Cloud Provider CLI](#) ( AWS CLI)
+- [Cloud Provider CLI](#) ( AWS CLI) [Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 ## Getting Started
 
 1. Clone this repository:
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/gAhmedg/Terraform-Reverse-Proxy-Project.git
    ```
 
 2. Change into the project directory:
     ```
-    cd <project-directory>
+    cd Terraform-Reverse-Proxy-Project
     ```
 
 3. Initialize Terraform: to downloading provider plugins and initializing backend configurations
@@ -51,7 +50,7 @@ Before you begin, ensure you have the following prerequisites installed:
 5. copy link and open it :
 
     ```
-    <Loadbalncer-ip>
+    <LoadBalancer-ip>
     ```
     
 ![alt text](<screenshots/Screenshot 2024-05-04 200251.png>)
