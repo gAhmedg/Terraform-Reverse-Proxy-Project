@@ -60,7 +60,11 @@ Before you begin, ensure you have the following prerequisites installed:
 
 
 
-https://github.com/gAhmedg/Terraform-Reverse-Proxy-Project/assets/108756442/4b1acdbd-edfb-426f-a156-98c85320b5e1
+
+
+https://github.com/gAhmedg/Terraform-Reverse-Proxy-Project/assets/108756442/8293fd05-4ad9-4f92-9cbd-3321eb4044fe
+
+
 
 
 
