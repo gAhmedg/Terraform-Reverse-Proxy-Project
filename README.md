@@ -71,7 +71,7 @@ https://github.com/gAhmedg/Terraform-Reverse-Proxy-Project/assets/108756442/4b1a
 
 
 
-![alt text](<screenshots/visual studio lb dns.png>)
+![alt text](<screenshots/user data.png>)
 
 ---
 ## Folder Structure
